@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@400;500;700&display=swap');
+:root{
+  --Main-color:rgb(14, 138, 34);
+}
+
+* , *::after , *::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body{
+  display: flex;
+  font-family: 'Stick No Bills', sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1121%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1122)'%3e%3c/rect%3e%3cpath d='M749.82 171a5.6 5.6 0 1 0 7.58-8.24 5.6 5.6 0 1 0-7.58 8.24zM760.65 159.23a5.6 5.6 0 1 0 7.58-8.25 5.6 5.6 0 1 0-7.58 8.25zM771.48 147.45a5.6 5.6 0 1 0 7.58-8.25 5.6 5.6 0 1 0-7.58 8.25zM782.31 135.67a5.6 5.6 0 1 0 7.58-8.24 5.6 5.6 0 1 0-7.58 8.24z' stroke='%23037b0b' stroke-width='1' stroke-dasharray='3%2c 3'%3e%3c/path%3e%3cpath d='M863.74 303.27a5.6 5.6 0 1 0 11.1 1.48 5.6 5.6 0 1 0-11.1-1.48zM879.6 305.38a5.6 5.6 0 1 0 11.1 1.48 5.6 5.6 0 1 0-11.1-1.48zM895.46 307.5a5.6 5.6 0 1 0 11.1 1.48 5.6 5.6 0 1 0-11.1-1.48zM911.32 309.61a5.6 5.6 0 1 0 11.1 1.48 5.6 5.6 0 1 0-11.1-1.48zM829.9 314.9a5.6 5.6 0 1 0 11.11 1.48 5.6 5.6 0 1 0-11.11-1.48zM845.76 317.02a5.6 5.6 0 1 0 11.11 1.47 5.6 5.6 0 1 0-11.11-1.47zM861.62 319.13a5.6 5.6 0 1 0 11.11 1.48 5.6 5.6 0 1 0-11.11-1.48zM877.48 321.24a5.6 5.6 0 1 0 11.11 1.48 5.6 5.6 0 1 0-11.11-1.48zM796.07 326.54a5.6 5.6 0 1 0 11.1 1.47 5.6 5.6 0 1 0-11.1-1.47zM811.93 328.65a5.6 5.6 0 1 0 11.1 1.48 5.6 5.6 0 1 0-11.1-1.48zM827.79 330.76a5.6 5.6 0 1 0 11.1 1.48 5.6 5.6 0 1 0-11.1-1.48zM843.65 332.88a5.6 5.6 0 1 0 11.1 1.47 5.6 5.6 0 1 0-11.1-1.47z' fill='%23e73635'%3e%3c/path%3e%3crect width='76.6' height='76.6' clip-path='url(%26quot%3b%23SvgjsClipPath1123%26quot%3b)' x='7.4' y='-17.56' fill='url(%23SvgjsPattern1124)' transform='rotate(62.04%2c 45.7%2c 20.74)'%3e%3c/rect%3e%3crect width='216' height='216' clip-path='url(%26quot%3b%23SvgjsClipPath1125%26quot%3b)' x='193.85' y='59.74' fill='url(%23SvgjsPattern1126)' transform='rotate(256.66%2c 301.85%2c 167.74)'%3e%3c/rect%3e%3crect width='85.12' height='85.12' clip-path='url(%26quot%3b%23SvgjsClipPath1127%26quot%3b)' x='1156.78' y='157.68' fill='url(%23SvgjsPattern1128)' transform='rotate(73.61%2c 1199.34%2c 200.24)'%3e%3c/rect%3e%3crect width='60' height='60' clip-path='url(%26quot%3b%23SvgjsClipPath1129%26quot%3b)' x='772.69' y='-9.44' fill='url(%23SvgjsPattern1130)' transform='rotate(11.87%2c 802.69%2c 20.56)'%3e%3c/rect%3e%3cpath d='M0.48 258.97a5.6 5.6 0 1 0 9.31 6.23 5.6 5.6 0 1 0-9.31-6.23zM13.77 267.87a5.6 5.6 0 1 0 9.31 6.23 5.6 5.6 0 1 0-9.31-6.23zM27.07 276.78a5.6 5.6 0 1 0 9.3 6.23 5.6 5.6 0 1 0-9.3-6.23zM40.36 285.68a5.6 5.6 0 1 0 9.3 6.24 5.6 5.6 0 1 0-9.3-6.24zM-35.01 254.45a5.6 5.6 0 1 0 9.31 6.23 5.6 5.6 0 1 0-9.31-6.23zM-21.72 263.35a5.6 5.6 0 1 0 9.31 6.24 5.6 5.6 0 1 0-9.31-6.24zM-8.42 272.26a5.6 5.6 0 1 0 9.3 6.23 5.6 5.6 0 1 0-9.3-6.23zM4.87 281.16a5.6 5.6 0 1 0 9.3 6.24 5.6 5.6 0 1 0-9.3-6.24z' fill='%23037b0b'%3e%3c/path%3e%3crect width='294.12' height='294.12' clip-path='url(%26quot%3b%23SvgjsClipPath1131%26quot%3b)' x='1087.96' y='105.71' fill='url(%23SvgjsPattern1132)' transform='rotate(173.82%2c 1235.02%2c 252.77)'%3e%3c/rect%3e%3cpath d='M1000.3499999999999 208.22000000000003 L1077.44 109.85000000000001L979.0403545824614 99.1803545824614z' stroke='%23d3b714' stroke-width='2.07' stroke-dasharray='3%2c 3'%3e%3c/path%3e%3cpath d='M811.22 352.14 L873.58 386.65L868.8588941580298 342.9361058419703z' fill='%23d3b714'%3e%3c/path%3e%3crect width='100.8' height='100.8' clip-path='url(%26quot%3b%23SvgjsClipPath1133%26quot%3b)' x='607.74' y='457.36' fill='url(%23SvgjsPattern1134)' transform='rotate(141.49%2c 658.14%2c 507.76)'%3e%3c/rect%3e%3cpath d='M457.48 128.06 L581.14 172.82999999999998L442.6378574027751 227.1171425972248z' fill='%23e73635'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1121'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1122'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(158%2c 0%2c 99%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cpattern x='0' y='0' width='76.6' height='7.66' patternUnits='userSpaceOnUse' id='SvgjsPattern1124'%3e%3crect width='76.6' height='3.83' x='0' y='0' fill='%23d3b714'%3e%3c/rect%3e%3crect width='76.6' height='3.83' x='0' y='3.83' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1123'%3e%3ccircle r='19.15' cx='45.7' cy='20.74'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1126'%3e%3cpath d='M0 6L3 0L6 6' stroke='%23d3b714' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1125'%3e%3ccircle r='54' cx='301.85' cy='167.74'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6.08' height='6.08' patternUnits='userSpaceOnUse' id='SvgjsPattern1128'%3e%3cpath d='M0 6.08L3.04 0L6.08 6.08' stroke='%23037b0b' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1127'%3e%3ccircle r='21.28' cx='1199.34' cy='200.24'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1130'%3e%3cpath d='M3 1L3 5M1 3L5 3' stroke='%23e73635' fill='none' stroke-width='1.3'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1129'%3e%3ccircle r='15' cx='802.69' cy='20.56'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='7.74' height='7.74' patternUnits='userSpaceOnUse' id='SvgjsPattern1132'%3e%3cpath d='M3.87 1L3.87 6.74M1 3.87L6.74 3.87' stroke='%23e73635' fill='none' stroke-width='2.39'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1131'%3e%3ccircle r='73.53' cx='1235.02' cy='252.77'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='10.08' height='10.08' patternUnits='userSpaceOnUse' id='SvgjsPattern1134'%3e%3cpath d='M5.04 1L5.04 9.08M1 5.04L9.08 5.04' stroke='%23e73635' fill='none' stroke-width='1.62'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1133'%3e%3ccircle r='25.2' cx='658.14' cy='507.76'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.currency-logo{
+  width: 180px;
+}
+
+h1{
+  color: var(--Main-color);
+  font-size: 24px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+
+p{
+  text-align: center;
+  margin: 0px 0 20px;
+}
+
+.btn{
+  color: rgb(1, 10, 6);
+  background-color: #9dbb19;
+  border: 2px solid ;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+
+.currency{
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.currency select{
+  --webkit-appearance: none;
+  --moz-appearance:none;
+  appearance: none;
+  padding: 10px 20px 10px 10px;
+  background-color: transparent;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%20000002%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+  background-position: right 7px top 50%;
+  background-size:12px ;
+  background-repeat: no-repeat;
+}
+
+.currency input{
+  font-size: 26px;
+  text-align: right;
+  border: 0;
+}
+
+.swap-rate-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+select:focus , input:focus , button:focus{
+  outline: none;
+}
+
+@media all and (max-width:700px){
+  .currency input{
+    width: 240px;
+  }
+}
